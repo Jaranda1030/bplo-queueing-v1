@@ -1,0 +1,24 @@
+:root{--blue:#0b1a47;--yellow:#e0b300;--muted:#6b7280;--bg:#ffffff;--border:#e5e7eb;}
+*{box-sizing:border-box}body.page{font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:#111;margin:0}
+.header{padding:16px 20px;border-bottom:4px solid var(--yellow);display:flex;align-items:center;justify-content:space-between}
+.title{color:var(--blue);margin:0;font-weight:800;font-size:20px}
+.container{padding:20px;max-width:1200px;margin:0 auto}
+.btn{display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:10px;background:#fff;text-decoration:none;cursor:pointer}
+.btn.primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+.btn.small{padding:6px 10px;border-radius:8px}
+.btn.danger{border-color:#b91c1c;color:#b91c1c}
+.input{padding:10px;border:1px solid var(--border);border-radius:8px;background:#fff;width:100%;max-width:420px}
+.input.sm{max-width:260px;padding:8px}
+.mt{margin-top:10px}.ml{margin-left:10px}
+.muted{color:var(--muted)}
+.card,.panel,.ticket{background:#fff;border:1px solid var(--border);border-radius:16px;padding:16px}
+.ticket-row{display:flex;justify-content:space-between;gap:16px}.ticket-num{font-size:48px;color:var(--yellow);font-weight:800}
+.qr{width:140px;height:auto;border:1px solid var(--border);border-radius:8px}
+.badge,.tag{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--yellow);color:var(--blue);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.panel-hdr{background:var(--blue);color:#fff;padding:8px 12px;border-radius:12px;margin:-6px -6px 12px -6px}
+.big{font-size:60px;font-weight:800;color:var(--yellow)}
+.list{list-style:none;padding-left:0;margin:0}
+.rowline{padding:6px 0;border-bottom:1px dashed var(--border)}
+.alert{background:#fff7ed;border:1px solid #fed7aa;color:#92400e;padding:10px;border-radius:10px}
+.table{width:100%;border-collapse:collapse}.table th,.table td{border:1px solid var(--border);padding:8px;text-align:left}
