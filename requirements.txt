@@ -1,5 +1,4 @@
-Flask
-Flask-Login
+flask
 qrcode
-Pillow
+pillow
 gunicorn
